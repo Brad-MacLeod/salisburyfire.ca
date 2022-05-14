@@ -1,0 +1,171 @@
+body
+{
+   background-color: #B22222;
+   background-image: url(images/error404_bkgrnd.png);
+   background-repeat: repeat-x;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#NavigationBar1 ul.navbar
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#NavigationBar1 ul.navbar li
+{
+   height: 25px;
+   width: 140px;
+   float: left;
+   margin: 0 4px 0 0;
+   overflow: hidden;
+}
+#NavigationBar1 ul.navbar li a
+{
+   display: block;
+   position: relative;
+}
+#NavigationBar1 ul.navbar li a img
+{
+   position: absolute;
+   left: 0;
+   z-index: 1;
+   border-width: 0;
+}
+#NavigationBar1 ul.navbar li span
+{
+   display: block;
+   height: 25px;
+   width: 140px;
+   position: absolute;
+   z-index: 2;
+}
+#NavigationBar1_wrapper
+{
+   position: absolute;
+   background-color: #FFFFFF;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+   z-index: 9999;
+}
+#imgLogo
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#banSalisbury
+{
+   background-color: transparent;
+   border: 0px #A0A0A0 solid;
+   color: #000000;
+   font-family: "Sitka Banner";
+   font-weight: bold;
+   font-size: 43px;
+   text-align: right;
+}
+#banSalisbury span
+{
+   display: block;
+   height: 43px;
+   margin: 24px 0px 24px 0px;
+}
+#banFire
+{
+   background-color: transparent;
+   border: 0px #A0A0A0 solid;
+   color: #B22222;
+   font-family: "Sitka Banner";
+   font-weight: bold;
+   font-size: 43px;
+   text-align: center;
+}
+#banFire span
+{
+   display: block;
+   height: 43px;
+   margin: 24px 0px 24px 0px;
+}
+#wb_titAboutDep 
+{
+   background-color: #B22222;
+   border: 1px #B22222 solid;
+   padding: 5px 0px 0px 5px;
+   margin: 0;
+   text-align: left;
+}
+#wb_titAboutDep div
+{
+   text-align: left;
+}
+#wb_txtAboutDep 
+{
+   background-color: #FFFFFF;
+   border-top-width: 1px;
+   border-right-width: 1px;
+   border-bottom-width: 1px;
+   border-left-width: 1px;
+   border-top-style: none;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #B22222;
+   border-right-color: #B22222;
+   border-bottom-color: #B22222;
+   border-left-color: #B22222;
+   padding: 0px 0px 0px 5px;
+   margin: 0;
+   text-align: left;
+}
+#wb_txtAboutDep div
+{
+   text-align: left;
+}
+#Image1
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#BanRescue
+{
+   background-color: transparent;
+   border: 0px #A0A0A0 solid;
+   color: #000000;
+   font-family: "Sitka Banner";
+   font-weight: bold;
+   font-size: 43px;
+   text-align: left;
+}
+#BanRescue span
+{
+   display: block;
+   height: 43px;
+   margin: 24px 0px 24px 0px;
+}
+#Banner1
+{
+   background-color: transparent;
+   border: 0px #A0A0A0 solid;
+   color: #000000;
+   font-family: "Sitka Banner";
+   font-weight: bold;
+   font-size: 43px;
+   text-align: left;
+}
+#Banner1 span
+{
+   display: block;
+   height: 43px;
+   margin: 24px 0px 24px 0px;
+}

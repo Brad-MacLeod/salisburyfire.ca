@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 5, 2021, 1:57:57 PM
+    Author     : Bradley MacLeod
+*/
+
+
+#title_black
+{
+   background-color: transparent;
+   border: 0px #A0A0A0 solid;
+   color: #000000;
+   font-family:'Helvetica';
+   font-weight: bold;
+   font-size: 60px;
+   text-align: right;
+   display: inline;
+   vertical-align: middle;
+}
+
+#title_red
+{
+   background-color: transparent;
+   border: 0px #A0A0A0 solid;
+   color: #B22222;
+   font-family:'Helvetica';
+   font-weight: bold;
+   font-size: 60px;
+   text-align: right;
+   display: inline;
+   vertical-align: middle;
+}
+
+div#container /* Aligntment */
+{
+   width: 860px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+
+#Content_Title 
+{
+   background-color: #B22222;
+   border: 1px #B22222 solid;
+   padding: 5px 0px 0px 5px;
+   margin: 0;
+   text-align: left;
+   color: #FFFFFF;
+   font-size: 24px;
+}
+#Content_Title div
+{
+   text-align: left;
+}
+
+#Content_Body 
+{
+   background-color: #FFFFFF;
+   border-top-width: 1px;
+   border-right-width: 1px;
+   border-bottom-width: 1px;
+   border-left-width: 1px;
+   border-top-style: none;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #B22222;
+   border-right-color: #B22222;
+   border-bottom-color: #B22222;
+   border-left-color: #B22222;
+   padding: 0px 0px 0px 5px;
+   margin: 0;
+   text-align: left;
+   font-family:'Helvetica';
+}
+#Content_Body div
+{
+   text-align: left;
+}
+
+#Content_Sub_Title
+{
+    color:#B22222;
+    font-size:20px;
+    font-weight: bold;
+    display: block;
+}
+
+#Content_Sub_Question
+{
+    color:#000000;
+    font-size:15px;
+    font-weight: bold;
+    display: block;
+}
+
+#imgDep .image
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+
+
