@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 5, 2021, 2:31:16 PM
+    Author     : Bradley MacLeod
+*/
+
+#NavigationBar1 ul.navbar
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#NavigationBar1 ul.navbar li
+{
+   height: 25px;
+   width: 140px;
+   float: left;
+   margin: 0 4px 0 0;
+   overflow: hidden;
+}
+#NavigationBar1 ul.navbar li a
+{
+   display: block;
+   position: relative;
+}
+#NavigationBar1 ul.navbar li a img
+{
+   position: absolute;
+   left: 0;
+   z-index: 1;
+   border-width: 0;
+}
+#NavigationBar1 ul.navbar li span
+{
+   display: block;
+   height: 25px;
+   width: 140px;
+   position: absolute;
+   z-index: 2;
+}
+#NavigationBar1_wrapper
+{
+   position: absolute;
+   background-color: #FFFFFF;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+   z-index: 9999;
+}
